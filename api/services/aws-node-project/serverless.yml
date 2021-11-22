@@ -1,0 +1,26 @@
+service: aws-node-project
+
+frameworkVersion: "2"
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: 20201221
+  region: eu-west-2
+
+  environment:
+    S3_NAME: github-webhook-branch-name
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          method: post
+          path: /hello
+  uploadToS3:
+    handler: handler.uploadToS3
+    events:
+      - http:
+          method: post
+          path: /uploadToS3
