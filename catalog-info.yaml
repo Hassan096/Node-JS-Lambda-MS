@@ -4,6 +4,9 @@ metadata:
   name: NodeJSLambdaMS
   annotations:
     github.com/project-slug: Hassan096/NodeJSLambdaMS
+    aws.com/lambda-function-name: aws-node-project-dev-uploadToS3, aws-node-project-dev-hello
+    aws.com/lambda-region: eu-west-2
+    backstage.io/techdocs-ref: value
 spec:
   type: other
   lifecycle: unknown
