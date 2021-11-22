@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: TestGitPod
+  annotations:
+    github.com/project-slug: Hassan096/TestGitPod
+spec:
+  type: other
+  lifecycle: unknown
+  owner: team-a
