@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: TestGitPod
+  name: NodeJSLambdaMS
   annotations:
-    github.com/project-slug: Hassan096/TestGitPod
+    github.com/project-slug: Hassan096/NodeJSLambdaMS
 spec:
   type: other
   lifecycle: unknown
