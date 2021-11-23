@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Node-JS-Lambda-MS
+  annotations:
+    github.com/project-slug: Hassan096/Node-JS-Lambda-MS
+spec:
+  type: other
+  lifecycle: unknown
+  owner: Hassan096
