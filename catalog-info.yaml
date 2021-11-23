@@ -9,5 +9,5 @@ metadata:
     backstage.io/techdocs-ref: value
 spec:
   type: service
-  lifecycle: unknown
+  lifecycle: development
   owner: team-a
