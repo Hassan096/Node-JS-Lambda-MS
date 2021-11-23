@@ -5,6 +5,6 @@ metadata:
   annotations:
     github.com/project-slug: Hassan096/Node-JS-Lambda-MS
 spec:
-  type: other
-  lifecycle: unknown
+  type: service
+  lifecycle: development
   owner: Hassan096
