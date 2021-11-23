@@ -8,6 +8,6 @@ metadata:
     aws.com/lambda-region: eu-west-2
     backstage.io/techdocs-ref: value
 spec:
-  type: other
+  type: service
   lifecycle: unknown
   owner: team-a
