@@ -11,3 +11,5 @@ spec:
   type: service
   lifecycle: development
   owner: hassan096
+  providesApis:
+    - hello-world
